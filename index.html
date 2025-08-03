@@ -2,86 +2,133 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>JAMILKHIR HASSAN – Biomedical Technician</title>
+  <title>[Your Name] – Biomedical Technician</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
+    * {
+      scroll-behavior: smooth;
+      box-sizing: border-box;
+    }
     body {
       font-family: Arial, sans-serif;
-      line-height: 1.6;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 60px 20px;
       max-width: 800px;
       margin: auto;
-      padding: 40px;
-      background-color: #f4f4f4;
     }
-    h1, h2 {
+    h2 {
       color: #2c3e50;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
     }
-    a.button {
+    .button {
       display: inline-block;
+      margin-top: 15px;
       background: #3498db;
       color: white;
       padding: 10px 20px;
       text-decoration: none;
       border-radius: 4px;
     }
-    a.button:hover {
+    .button:hover {
       background: #2980b9;
+    }
+    ul {
+      padding-left: 20px;
     }
   </style>
 </head>
+
 <body>
 
-  <!-- Header -->
-  <h1>[Your Name]</h1>
-  <p><strong>Registered Biomedical Technician (MBOT)</strong></p>
+  <header>
+    <h1>[Your Name]</h1>
+    <p>Registered Biomedical Technician (MBOT)</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-  <!-- About Me -->
-  <h2>About Me</h2>
-  <p>I am a Biomedical Technician with over 4 years of experience maintaining, repairing, and supporting dental equipment and medical systems in clinical environments. My expertise includes troubleshooting dental chairs (A-dec, KaVo, Planmeca), documenting repairs in CAMMS, and providing technical support to clinical staff.</p>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a Biomedical Technician with over 4 years of experience maintaining, repairing, and supporting dental equipment and medical systems in clinical settings. I’m registered under MBOT and specialize in electromechanical troubleshooting, CAMMS reporting, and user technical support.</p>
+  </section>
 
-  <!-- Experience -->
-  <h2>Experience</h2>
-  <p><strong>Senior Biomedical Technician (Dental)</strong><br>
-  Quantum Medical Solution Sdn Bhd, 2023–Present</p>
-  <ul>
-    <li>Maintained and repaired dental chairs in government clinics.</li>
-    <li>Performed preventive maintenance and fault diagnosis.</li>
-    <li>Used CAMMS for repair documentation and inventory tracking.</li>
-  </ul>
+  <section id="experience">
+    <h2>Experience</h2>
+    <p><strong>Senior Biomedical Technician (Dental)</strong><br>
+    Quantum Medical Solution – 2023–Present</p>
+    <ul>
+      <li>Maintained and repaired dental chairs (A-dec, KaVo, Planmeca)</li>
+      <li>Performed scheduled preventive maintenance and CAMMS logging</li>
+      <li>Trained users on equipment handling and safety</li>
+    </ul>
 
-  <p><strong>Junior Biomedical Technician</strong><br>
-  Quantum Medical Solution Sdn Bhd, 2020–2022</p>
-  <ul>
-    <li>Supported equipment calibration and field servicing tasks.</li>
-    <li>Learned core biomedical repair standards and best practices.</li>
-  </ul>
+    <p><strong>Junior Biomedical Technician</strong><br>
+    Quantum Medical Solution – 2020–2022</p>
+    <ul>
+      <li>Assisted in field diagnostics and repairs</li>
+      <li>Documented fault findings and maintenance tasks</li>
+    </ul>
 
-  <p><strong>System Support Technician</strong><br>
-  Eusoft Sdn Bhd, 2018–2020</p>
-  <ul>
-    <li>Configured and supported digital signage and routers.</li>
-    <li>Resolved IT-related complaints and remote support tickets.</li>
-  </ul>
+    <p><strong>System Support Technician</strong><br>
+    Eusoft Sdn Bhd – 2018–2020</p>
+    <ul>
+      <li>Provided IT support for digital signage and network devices</li>
+      <li>Resolved software and hardware complaints both remotely and on-site</li>
+    </ul>
+  </section>
 
-  <!-- Skills -->
-  <h2>Skills</h2>
-  <ul>
-    <li>Dental Chair Maintenance (A-dec, KaVo, Planmeca)</li>
-    <li>Preventive Maintenance & CAMMS Reporting</li>
-    <li>Electromechanical and Pneumatic Troubleshooting</li>
-    <li>Basic IT Support, Digital Display, Networking</li>
-    <li>Languages: English & Bahasa Malaysia</li>
-  </ul>
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Dental Chair Maintenance (A-dec, KaVo, Planmeca)</li>
+      <li>Preventive Maintenance & CAMMS Reporting</li>
+      <li>Electromechanical & Pneumatic Troubleshooting</li>
+      <li>IT Support – Networking, Routers, Digital Signage</li>
+      <li>Fluent in English & Bahasa Malaysia</li>
+    </ul>
+  </section>
 
-  <!-- Resume Download -->
-  <h2>Resume</h2>
-  <p>
-    <a class="button" href="YourResume.pdf" target="_blank">Download My Resume (PDF)</a>
-  </p>
+  <section id="resume">
+    <h2>Resume</h2>
+    <p>
+      <a class="button" href="YourResume.pdf" target="_blank">Download My Resume (PDF)</a>
+    </p>
+  </section>
 
-  <!-- Contact Info -->
-  <h2>Contact</h2>
-  <p>Email: your.email@example.com</p>
-  <p>Phone: 012-3456789</p>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: your.email@example.com</p>
+    <p>Phone: 012-3456789</p>
+  </section>
 
 </body>
 </html>
